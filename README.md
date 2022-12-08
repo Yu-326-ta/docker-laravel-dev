@@ -62,5 +62,3 @@ docker compose.yml ファイルがあるディレクトリで以下のコマン�
 エラーが出る場合は、  
 infra→mysql→Dockerfile の環境変数と src→vendor→.env の環境変数が等しいか、  
 .env ファイルの DB_HOST が自分の db コンテナの名前と等しいか確認してみてください。
-
-test
