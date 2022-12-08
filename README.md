@@ -54,7 +54,7 @@ docker compose.yml ファイルがあるディレクトリで以下のコマン�
 6. .envがgitの管理下になく生成されないので、.env.example を.env に名前を変更する
 7. `php artisan key:generate` コマンドでアプリケーションキーを作成
 8. `php artisan storage:link` 　コマンドでシンボリックリンクを張る
-9. `php artisan serve` コマンドで laravel の環境構築が完成
+9. localhost:8080にアクセス
 
 おまけ  
 `docker compoes exec app bash` コマンドで app コンテナに入り、  
